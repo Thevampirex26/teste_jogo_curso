@@ -20,7 +20,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function mensagemInicial() {
     exibirTextoNaTela('h1','Jogo do número secreto');
-    exibirTextoNaTela('p','Digite um número entre 1 e 100_');
+    exibirTextoNaTela('p','Digite um número entre 1 e 100.');
     document.getElementById('botaoChute').removeAttribute('disabled');
     console.log(numeroSecreto)
 }
